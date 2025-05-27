@@ -56,7 +56,7 @@ An intelligent document analysis system that enables users to upload multiple PD
    Create a `.env` file in the root directory:
    ```env
    GEMINI_API_KEY=your_google_gemini_api_key
-   MONGODB_URI=mongodb://localhost:27017/
+   MONGODB_URI=mongodb://localhost:29573/
    MONGODB_DB_NAME=pdf_chat_app
    ```
 

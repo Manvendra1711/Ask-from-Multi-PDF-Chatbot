@@ -1,8 +1,4 @@
 import streamlit as st
-GEMINI_API_KEY=st.secrets["GEMINI_API_KEY"]
-HUGGINGFACEHUB_API_TOKEN=st.secrets["HUGGINGFACEHUB_API_TOKEN"]
-MONGODB_URI=st.secrets["MONGODB_URI"]
-MONGODB_DB_NAME=st.secrets["MONGODB_DB_NAME"]
 from dotenv import load_dotenv
 import os
 from PyPDF2 import PdfReader
